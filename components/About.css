@@ -1,0 +1,34 @@
+.about-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #4982bb99;
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid #C1C8DD;
+    border-radius: 3px;
+}
+.info{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.go-home {
+    border: 1.8px solid #C1C8DD;
+    color: white;
+    background-color: #4982bb99;
+    border-radius: 2px;
+    transition: background-color 1s;
+}
+.go-home:hover {
+    background-color: white;
+    color: #1F2A38;
+    transition: background-color 1s;
+}
+.contactInfo img{
+    margin-top: 14px;
+    margin-right: 7px;
+}
+.contactInfo a{
+    text-decoration: none;
+    color: wheat;
+}
